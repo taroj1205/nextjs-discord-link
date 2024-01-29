@@ -12,20 +12,20 @@ export async function GET(req: Request) {
 		(
 			<div
 				style={{
-					fontSize: 14,
+					fontSize: 16,
 					display: "flex",
 					textAlign: "center",
 					alignItems: "center",
 					justifyContent: "center",
 					fontFamily: "GG Sans",
-					color: "rgb(0, 128, 255)",
+					color: "#00A8FC",
 					whiteSpace: "nowrap",
 				}}>
 				{url}
 			</div>
 		),
 		{
-			height: 20,
+			height: 22,
 			width: url && url.length > 0 ? url.length * 10 : 100,
 		}
 	);
